@@ -1,0 +1,3 @@
+/home/mrmomenticus/CLionProjects/Client/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mrmomenticus/CLionProjects/Client/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mrmomenticus/CLionProjects/Client/cmake-build-debug/CMakeFiles/Client_ServerDaemon.dir
