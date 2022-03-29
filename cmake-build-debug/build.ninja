@@ -78,6 +78,12 @@ build CMakeFiles/Client_ServerDaemon.dir/main.cpp.o: CXX_COMPILER__Client_Server
   OBJECT_DIR = CMakeFiles/Client_ServerDaemon.dir
   OBJECT_FILE_DIR = CMakeFiles/Client_ServerDaemon.dir
 
+build CMakeFiles/Client_ServerDaemon.dir/Client.cpp.o: CXX_COMPILER__Client_ServerDaemon_Debug /home/mrmomenticus/CLionProjects/Client/Client.cpp || cmake_object_order_depends_target_Client_ServerDaemon
+  DEP_FILE = CMakeFiles/Client_ServerDaemon.dir/Client.cpp.o.d
+  FLAGS = -pthread -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/Client_ServerDaemon.dir
+  OBJECT_FILE_DIR = CMakeFiles/Client_ServerDaemon.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Client_ServerDaemon
@@ -86,7 +92,7 @@ build CMakeFiles/Client_ServerDaemon.dir/main.cpp.o: CXX_COMPILER__Client_Server
 #############################################
 # Link the executable Client_ServerDaemon
 
-build Client_ServerDaemon: CXX_EXECUTABLE_LINKER__Client_ServerDaemon_Debug CMakeFiles/Client_ServerDaemon.dir/main.cpp.o
+build Client_ServerDaemon: CXX_EXECUTABLE_LINKER__Client_ServerDaemon_Debug CMakeFiles/Client_ServerDaemon.dir/main.cpp.o CMakeFiles/Client_ServerDaemon.dir/Client.cpp.o
   FLAGS = -pthread -g
   OBJECT_DIR = CMakeFiles/Client_ServerDaemon.dir
   POST_BUILD = :
